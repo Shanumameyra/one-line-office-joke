@@ -1,11 +1,11 @@
 // One-Line Office Joke: 24-Hour Sprint — make.fun entry.
 // Writes this entry's single line to /output/entry.txt.
-// Gate: UTF-8 text, 1-200 characters, not only whitespace. This line is 117.
+// Gate: UTF-8 text, 1-200 characters, not only whitespace. This line is 104.
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
 const LINE =
-  "This meeting could have been an email, but then the email would have needed a meeting to explain why it was an email.";
+  "This meeting could have been an email, but then the email would have needed a meeting to explain itself.";
 
 const candidates = ["/output/entry.txt", "output/entry.txt"];
 
